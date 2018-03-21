@@ -1,0 +1,168 @@
+/* General design specs */
+
+html body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  height: 100%;
+  margin: 0px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.title {
+  margin: 20px;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header .logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  width: 100%;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navigation {
+  display: flex;
+  padding-right: 20px;
+  width: 500px;
+}
+
+/* Above the fold */
+
+.top-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-page .title {
+  background-color: black;
+  width: 1200px;
+}
+
+/* Tea of the month */
+
+.first.section {
+  display: flex;
+  justify-content: center;
+}
+
+.tea-month {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.teas {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+}
+
+.teas h4 {
+  margin: 10px;
+}
+
+.tea {
+  margin: 10px 15px;
+}
+
+/* Locations */
+
+.second.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.second.section h2 {
+  margin: 0px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 0px 20px;
+}
+
+.location h3 {
+  margin: 10px 0px;
+}
+
+/* Footer */
+
+Footer {
+  height: 200px;
+}
+
+/* Copyright */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
